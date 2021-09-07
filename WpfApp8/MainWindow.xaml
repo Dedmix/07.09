@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="900">
+    <Grid>
+        <Frame x:Name="MainFrame" Margin="10,10,10,50" NavigationUIVisibility="Hidden">
+            <Frame.Background>
+                <ImageBrush ImageSource="554545654.png"/>
+            </Frame.Background>
+        </Frame>
+        <Button Content="Сброс" HorizontalAlignment="Left" Margin="10,424,0,0" VerticalAlignment="Top" Width="872" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
